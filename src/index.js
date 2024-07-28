@@ -7,11 +7,13 @@ import tabel from './tabel';
 import state from './state';
 import fetch from './fetch api/fetchapi';
 import post from './fetch api/post';
+import store from'./redux/store';
  function app() {
     <Router>
         <link to="/tabel">Tabel</link>
         <link to="/state">state</link>
         <link to="/fetch">fetch</link>
+        
         
         <Routes>
             <route path="/" element={<tabel />} />
@@ -21,3 +23,6 @@ import post from './fetch api/post';
         </Routes>
     </Router>
  }
+
+ <code>Aufa Ahmad Ghonim</code>
+ <code>A11.2017.10090</code>
